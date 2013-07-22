@@ -1,0 +1,13 @@
+{
+  "name": "streamhub-structs",
+  "version": "0.0.0",
+  "main": [
+    "./src/main.js"
+  ],
+  "dependencies": {
+    "streamhub-sdk": "git://github.com/gobengo/streamhub-sdk.git",
+    "requirejs": "~2.1.5",
+    "jasmine": "*",
+    "jasmine-jquery": "*"
+  }
+}
