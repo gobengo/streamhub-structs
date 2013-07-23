@@ -8,16 +8,20 @@ require.config({
     hgn: 'lib/requirejs-hogan-plugin/hgn',
     jasmine: 'lib/jasmine/lib/jasmine-core/jasmine',
     'jasmine-html': 'lib/jasmine/lib/jasmine-core/jasmine-html',
-    'jasmine-jquery': 'lib/jasmine-jquery/lib/jasmine-jquery'
+    'jasmine-jquery': 'lib/jasmine-jquery/lib/jasmine-jquery',
+    'twitter-text': 'lib/twitter-text/twitter-text'
   },
   packages: [{
      name: "streamhub-sdk",
-     location: "src/"
+     location: "lib/streamhub-sdk/src/"
   },{
-     name: "streamhub-sdk-tests",
-     location: "tests/"
+     name: "streamhub-structs",
+     location: "src/"
   }],
   shim: {
+    'twitter-text': {
+        exports: 'twttr'
+    },
     jquery: {
         exports: '$'
     },

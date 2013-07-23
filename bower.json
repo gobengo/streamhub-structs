@@ -6,6 +6,7 @@
   ],
   "dependencies": {
     "streamhub-sdk": "git://github.com/gobengo/streamhub-sdk.git",
+    "twitter-text": "*",
     "requirejs": "~2.1.5",
     "jasmine": "*",
     "jasmine-jquery": "*"
